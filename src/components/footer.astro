@@ -1,0 +1,46 @@
+---
+import LastImg from "../assets/Images/lastImage.png";
+
+---
+<footer>
+    <img src={LastImg.src} alt="">
+</footer>
+
+<style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      list-style-type: none;
+    }
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 12px 50px;
+    }
+    body {
+      background: #000;
+      color: white;
+      font-family: Poppins;
+      overflow-y: hidden;
+      overflow-x: hidden;
+    }
+    footer{
+      position: absolute;
+      right: 30px;
+      bottom: 0px;
+      img{
+          position: relative;
+          animation: rotate 10s linear infinite;
+      }
+    }
+    @keyframes rotate {
+      from {
+        transform: rotate(0);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+  </style>

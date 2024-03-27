@@ -1,0 +1,201 @@
+
+<div class="abs-ps1">
+    <div>
+      <ul>
+        <li>creative design</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>ui/ux</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>marketing</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>motion</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>animation</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>branding</li>
+        <li>creative design</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>ui/ux</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>marketing</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>motion</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>animation</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>branding</li>
+        <li>creative design</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>ui/ux</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>marketing</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>motion</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>animation</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>branding</li>
+      </ul>
+    </div>
+  </div>
+  <div class="abs-ps2">
+    <div>
+      <ul>
+        <li>creative design</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>ui/ux</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>marketing</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>motion</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>animation</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>branding</li>
+        <li>creative design</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>ui/ux</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>marketing</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>motion</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>animation</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>branding</li>
+        <li>creative design</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>ui/ux</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>marketing</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>motion</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>animation</li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li>branding</li>
+      </ul>
+    </div>
+  </div>
+<style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      list-style-type: none;
+    }
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 12px 50px;
+    }
+    body {
+      background: #000;
+      color: white;
+      font-family: Poppins;
+      overflow-y: hidden;
+      overflow-x: hidden;
+    }
+    .abs-ps1 {
+      position: absolute;
+      width: 2000px;
+      height: 50px;
+      background: #212121;
+      transform: rotate(-20deg);
+      animation: infiniteMove 10s linear infinite;
+  
+      div {
+        position: relative;
+        .circle {
+          font-size: 8px;
+          color: #ff7e21;
+        }
+        ul {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          padding: 12px;
+        }
+      }
+    }
+    .abs-ps2 {
+      position: absolute;
+      width: 2000px;
+      height: 50px;
+      background: #FFF;
+      color: #212121;
+      top: 10px;
+      transform: rotate(20deg);
+      animation: infiniteMove2 10s linear infinite;
+  
+      div {
+        position: relative;
+        .circle {
+          font-size: 8px;
+          color: #ff7e21;
+        }
+        ul {
+          display: flex;
+          justify-content: space-evenly;
+          align-items: center;
+          padding: 12px;
+        }
+      }
+    }
+    @keyframes infiniteMove {
+      0% {
+        left: 0;
+        bottom: 100px;
+      }
+      25% {
+        bottom: 120px;
+      }
+      50% {
+        bottom: 140px;
+      }
+      75% {
+        bottom: 160px;
+      }
+      100% {
+        left: 360px;
+        bottom: 180px;
+      }
+
+    }
+    @keyframes infiniteMove2 {
+      0% {
+        left: 0;
+        top: 10px;
+      }
+      25% {
+        top: 20px;
+      }
+      50% {
+        top: 30px;
+      }
+      75% {
+        top: 40px;
+      }
+      100% {
+        left: 100px;
+        top: 50px;
+      }
+      120% {
+        left: 0;
+        top: 10px;
+      }
+      140% {
+        top: 20px;
+      }
+      160% {
+        top: 30px;
+      }
+      180% {
+        top: 40px;
+      }
+      200% {
+        top: 50px;
+      }
+    }
+  </style>

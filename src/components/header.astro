@@ -1,0 +1,93 @@
+<header>
+  <nav>
+    <div class="container">
+      <ul>
+        <li><p>FB</p></li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li><p>IN</p></li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li><p>DR</p></li>
+        <li><i class="bi bi-circle-fill circle"></i></li>
+        <li><p>BE</p></li>
+      </ul>
+      <h1>gleamy</h1>
+      <div class="header-flex">
+        <i class="bi bi-search"></i>
+        <div class="line"></div>
+        <div class="header-flex_menu">
+          <span>menu</span>
+          <i class="bi bi-list"></i>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 12px 50px;
+  }
+  body {
+    background: #000;
+    color: white;
+    font-family: Poppins;
+  }
+  header {
+    z-index: 999;
+    nav {
+      .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        ul {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+
+          li {
+            display: flex;
+            align-items: center;
+            .circle {
+              font-size: 8px;
+              color: #ff7e21;
+            }
+            p {
+              font-size: 14px;
+            }
+          }
+        }
+        h1 {
+          font-weight: 400;
+          font-size: 40px;
+        }
+        .header-flex {
+          display: flex;
+          gap: 20px;
+          align-items: center;
+          i {
+            cursor: pointer;
+          }
+
+          .line {
+            width: 1px;
+            height: 15px;
+            background: #fff;
+          }
+
+          &_menu {
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+</style>
